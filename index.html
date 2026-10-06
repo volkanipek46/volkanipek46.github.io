@@ -329,6 +329,24 @@
     color: var(--muted);
     line-height: 1.5;
   }
+<!-- Çerez Banner Tasarımı ve Kodları -->
+<link rel="stylesheet" type="text/css" href="https://jsdelivr.net" />
+<script src="https://jsdelivr.net" data-cfasync="false"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": { "background": "#232733" }, // Banner arka plan rengi
+    "button": { "background": "#24a0ed" } // Buton rengi
+  },
+  "content": {
+    "message": "Sitemizde deneyiminizi geliştirmek için çerezler kullanıyoruz.",
+    "dismiss": "Kabul Et",
+    "link": "Daha Fazla Bilgi",
+    "href": "cerez-politikasi.html" // Çerez politikası linkiniz
+  }
+})});
+</script>
 
   /* ── CONTENT CALENDAR ── */
   .calendar-grid {
